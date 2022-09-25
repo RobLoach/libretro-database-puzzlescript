@@ -1,0 +1,8 @@
+[submodule "puzzlescript"]
+	path = puzzlescript
+	url = https://github.com/philschatz/puzzlescript.git
+	ignore = dirty
+[submodule "libretro-database"]
+	path = libretro-database
+	url = https://github.com/libretro/libretro-database.git
+	ignore = dirty

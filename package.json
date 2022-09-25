@@ -1,0 +1,26 @@
+{
+  "name": "libretro-database-puzzlescript",
+  "version": "2022.9.25",
+  "private": true,
+  "description": "puzzlescript database",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RobLoach/libretro-database-puzzlescript.git"
+  },
+  "author": "Rob Loach",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RobLoach/libretro-database-puzzlescript/issues"
+  },
+  "homepage": "https://github.com/RobLoach/libretro-database-puzzlescript#readme",
+  "dependencies": {
+    "crc32": "^0.2.2",
+    "md5": "^2.3.0",
+    "robloach-datfile": "^2.3.0",
+    "sha1": "^1.1.1"
+  }
+}
