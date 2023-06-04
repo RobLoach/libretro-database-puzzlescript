@@ -86,7 +86,7 @@ async function go() {
         datOuput += `
 game (
     name "${gameInfo.title}"${datParams}
-    rom ( name "${gameInfo.slug}.pz" size ${gameInfo.size} crc ${gameInfo.crc32} md5 ${gameInfo.md5} sha1 ${gameInfo.sha1} )
+    rom ( name "${gameInfo.slug}.pz" size ${gameInfo.size} crc ${gameInfo.crc32.toUpperCase()} md5 ${gameInfo.md5.toUpperCase()} sha1 ${gameInfo.sha1.toUpperCase()} )
 )
 `
     }
