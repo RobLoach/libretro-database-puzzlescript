@@ -6,3 +6,5 @@
 	path = libretro-database
 	url = https://github.com/libretro/libretro-database.git
 	ignore = dirty
+	shallow = 1
+	branch = master
